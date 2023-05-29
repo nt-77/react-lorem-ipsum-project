@@ -8,8 +8,8 @@ const App = () => {
     e.preventDefault();
     // console.log({count});
     // const counted=(e.target.value);
-    const amount =parseInt(count)
-    setText(data.slice(0,amount))
+    const amount =parseInt(count)     //converting the string type to integer
+    setText(data.slice(0,amount))     //js method to get portion of the array
     // const slicedText=data.slice(1,amount);
     console.log(text);
   }
@@ -34,3 +34,4 @@ const App = () => {
   );
 };
 export default App;
+
